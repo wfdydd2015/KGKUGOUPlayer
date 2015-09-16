@@ -35,6 +35,7 @@
 		C79424B81BA7C5FC0012B9EF /* 陈学冬 - 不再见.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C79424A51BA7C5FC0012B9EF /* 陈学冬 - 不再见.mp3 */; };
 		C79424B91BA7C5FC0012B9EF /* 齐晨 - 咱们结婚吧.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C79424A61BA7C5FC0012B9EF /* 齐晨 - 咱们结婚吧.mp3 */; };
 		C79424C21BA7C74A0012B9EF /* KGWelcomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79424C11BA7C74A0012B9EF /* KGWelcomePageViewController.m */; };
+		C79424C61BA800F00012B9EF /* KGHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79424C51BA800F00012B9EF /* KGHomePageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		C79424A61BA7C5FC0012B9EF /* 齐晨 - 咱们结婚吧.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "齐晨 - 咱们结婚吧.mp3"; sourceTree = "<group>"; };
 		C79424C01BA7C74A0012B9EF /* KGWelcomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGWelcomePageViewController.h; sourceTree = "<group>"; };
 		C79424C11BA7C74A0012B9EF /* KGWelcomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGWelcomePageViewController.m; sourceTree = "<group>"; };
+		C79424C41BA800F00012B9EF /* KGHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGHomePageViewController.h; sourceTree = "<group>"; };
+		C79424C51BA800F00012B9EF /* KGHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGHomePageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +184,7 @@
 		C794248F1BA7B3B10012B9EF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C79424C31BA800C20012B9EF /* 主页 */,
 				C79424BA1BA7C6C30012B9EF /* 欢迎页 */,
 			);
 			name = Controllers;
@@ -228,6 +232,15 @@
 				C79424C11BA7C74A0012B9EF /* KGWelcomePageViewController.m */,
 			);
 			name = "欢迎页";
+			sourceTree = "<group>";
+		};
+		C79424C31BA800C20012B9EF /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				C79424C41BA800F00012B9EF /* KGHomePageViewController.h */,
+				C79424C51BA800F00012B9EF /* KGHomePageViewController.m */,
+			);
+			name = "主页";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C794246D1BA7B1BE0012B9EF /* KGKUGOUPlayer.xcdatamodeld in Sources */,
+				C79424C61BA800F00012B9EF /* KGHomePageViewController.m in Sources */,
 				C794246A1BA7B1BE0012B9EF /* AppDelegate.m in Sources */,
 				C79424C21BA7C74A0012B9EF /* KGWelcomePageViewController.m in Sources */,
 				C79424671BA7B1BE0012B9EF /* main.m in Sources */,
