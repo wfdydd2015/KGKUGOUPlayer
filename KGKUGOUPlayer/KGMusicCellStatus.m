@@ -1,0 +1,21 @@
+//
+//  KGMusicCellStatus.m
+//  KGKUGOUPlayer
+//
+//  Created by neuedu on 15/9/17.
+//  Copyright (c) 2015年 neuedu. All rights reserved.
+//
+
+#import "KGMusicCellStatus.h"
+
+@implementation KGMusicCellStatus
++(instancetype)MusicCellStatusWithdict:(NSDictionary *)dict
+{
+    KGMusicCellStatus*status=[[KGMusicCellStatus alloc]init];
+    if (status) {
+        [status setValuesForKeysWithDictionary:dict];
+        
+    }
+    return status;
+}
+@end

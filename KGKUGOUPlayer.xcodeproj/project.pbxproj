@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C74E97251BAA620F0073ADF2 /* KGMusicCellStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = C74E97241BAA620F0073ADF2 /* KGMusicCellStatus.m */; };
+		C74E972A1BAA63410073ADF2 /* KGHomePageMusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C74E97291BAA63410073ADF2 /* KGHomePageMusicTableViewCell.m */; };
 		C79424671BA7B1BE0012B9EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C79424661BA7B1BE0012B9EF /* main.m */; };
 		C794246A1BA7B1BE0012B9EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C79424691BA7B1BE0012B9EF /* AppDelegate.m */; };
 		C794246D1BA7B1BE0012B9EF /* KGKUGOUPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C794246B1BA7B1BE0012B9EF /* KGKUGOUPlayer.xcdatamodeld */; };
@@ -49,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C74E97231BAA620F0073ADF2 /* KGMusicCellStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGMusicCellStatus.h; sourceTree = "<group>"; };
+		C74E97241BAA620F0073ADF2 /* KGMusicCellStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGMusicCellStatus.m; sourceTree = "<group>"; };
+		C74E97281BAA63410073ADF2 /* KGHomePageMusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGHomePageMusicTableViewCell.h; sourceTree = "<group>"; };
+		C74E97291BAA63410073ADF2 /* KGHomePageMusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGHomePageMusicTableViewCell.m; sourceTree = "<group>"; };
 		C79424611BA7B1BE0012B9EF /* KGKUGOUPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGKUGOUPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79424651BA7B1BE0012B9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C79424661BA7B1BE0012B9EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +111,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C74E97261BAA62AE0073ADF2 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				C74E97231BAA620F0073ADF2 /* KGMusicCellStatus.h */,
+				C74E97241BAA620F0073ADF2 /* KGMusicCellStatus.m */,
+			);
+			name = "主页";
+			sourceTree = "<group>";
+		};
+		C74E97271BAA62E80073ADF2 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				C74E97281BAA63410073ADF2 /* KGHomePageMusicTableViewCell.h */,
+				C74E97291BAA63410073ADF2 /* KGHomePageMusicTableViewCell.m */,
+			);
+			name = "主页";
+			sourceTree = "<group>";
+		};
 		C79424581BA7B1BE0012B9EF = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +194,7 @@
 		C794248D1BA7B38B0012B9EF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C74E97261BAA62AE0073ADF2 /* 主页 */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -177,6 +202,7 @@
 		C794248E1BA7B3A20012B9EF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C74E97271BAA62E80073ADF2 /* 主页 */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -366,6 +392,8 @@
 				C794246D1BA7B1BE0012B9EF /* KGKUGOUPlayer.xcdatamodeld in Sources */,
 				C79424C61BA800F00012B9EF /* KGHomePageViewController.m in Sources */,
 				C794246A1BA7B1BE0012B9EF /* AppDelegate.m in Sources */,
+				C74E97251BAA620F0073ADF2 /* KGMusicCellStatus.m in Sources */,
+				C74E972A1BAA63410073ADF2 /* KGHomePageMusicTableViewCell.m in Sources */,
 				C79424C21BA7C74A0012B9EF /* KGWelcomePageViewController.m in Sources */,
 				C79424671BA7B1BE0012B9EF /* main.m in Sources */,
 			);
